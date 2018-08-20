@@ -1,9 +1,9 @@
 // setting and swapping
-var myName = "Jake";
-var myNumber = 42;
-var temp = myName;
-myName = myNumber; 
-myNumber = temp;
+// var myName = "Jake";
+// var myNumber = 42;
+// var temp = myName;
+// myName = myNumber; 
+// myNumber = temp;
 // console.log (myName);
 // console.log (myNumber); 
 
@@ -21,3 +21,14 @@ myNumber = temp;
 //         console.log(i);
 //         i+=6;
 //     }
+for(var i=1; i<=100; i++){ 
+    if(i%5===0) {
+        console.log("coding"); 
+    } else {
+        console.log(i);
+    }
+
+    if(i%10==0) {
+        console.log("dojo");
+    }
+} 
