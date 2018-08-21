@@ -48,14 +48,40 @@ var myNumber = 42;
 // }
 // flexCountdown(2,51,3);
 
-function countDown(num) {
-    var arr=[];
+// function countDown(num) {
+//     var arr=[];
     
-    for(i=num; i>=0; i--){
-        arr.push(i);
-    }
-    // console.log(arr);
-    return arr;
+//     for(i=num; i>=0; i--){
+//         arr.push(i);
+//     }
+//     // console.log(arr);
+//     return arr;
+// }
+// var x=countDown(14);
+// console.log(x);
+
+// function leapYear(year){
+//     if(year%4==0){
+//         console.log("leap year");
+//     } else if(year%100==0){
+//         console.log(year);
+//     }
+//             //  } else(year%400==0);{
+//             //          console.log("leap year")
+                 
+//         // return year;
+// }
+
+// console.log(leapYear(2000))
+
+function leapYear(year){
+    if(year%400==0){
+        console.log("leap year");
+    } else if(year%100==0){
+        return year;
+    } else if (year%4==0){
+        console.log("leap year");
+    }         return year;
 }
-var x=countDown(14);
-console.log(x);
+
+console.log(leapYear(2402));
