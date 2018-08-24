@@ -177,13 +177,59 @@
 
 // makeItBig([-5,-64,56,5,-4,5,-7,6]);
 
-function arr4(arr){
-    console.log(arr[arr.length-2]); 
-    for (var i = 0; i>=0; i++){
-        if(arr[i]%2!=0) {
-            return arr[i];
-        } 
-}
+// function arr4(arr){
+//     console.log(arr[arr.length-2]); 
+//     for (var i = 0; i>=0; i++){
+//         if(arr[i]%2!=0) {
+//             return arr[i];
+//         } 
+// }
+// }
+
+// console.log(arr4([4,6,86,20,619,6,81,6]));
+
+// function arr5(arr){
+//     for (var i = 0; i<arr.length; i++){
+//         arr[i]=arr[i]*2;
+//     }
+//     return(arr);
+// }
+
+// console.log(arr5([5,48,345,3,388,3838338,4])); 
+
+// function arr6(arr){
+//     var count = 0;
+//     for (var i = 0; i<arr.length; i++){
+//         if (arr[i]>0){
+//             count+=1;
+//         }
+//     }
+//     arr[arr.length-1]=count;
+    
+    
+//     return arr;
+// }
+
+// console.log(arr6([15,-5,-3,8,5])); //expected end result to be [15,-5,-3,8,3]
+
+function arr7(arr){ 
+    for (var i = 0; i<arr.length-2; i++){
+        if (arr[i]%2==0 && arr[i+1]%2==0 && arr[i+2]%2==0){
+            console.log("Even more so!");
+        }
+        if (arr[i] % 2 != 0 && arr[i+1] % 2 != 0 && arr[i+2] % 2 != 0){
+            console.log("That's odd!");
+        }
+    }
 }
 
-console.log(arr4([4,6,86,20,619,6,81,6]));
+    // for each # in the array, 
+        //check if the number is odd or even 
+        // if there are three numbers of each in a row,
+        // print a string 
+    
+    // should I split up between odd or even? 
+    // i, i+1, i+2? 
+    // how do I know if they are in a row? 
+
+arr7([2,4,6,5,7,9]); //expected outcome is "Even more so!" "That's odd!"
