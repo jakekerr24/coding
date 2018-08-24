@@ -74,14 +74,18 @@ var myNumber = 42;
 
 // console.log(leapYear(2000))
 
-function leapYear(year){
-    if(year%400==0){
-        console.log("leap year");
-    } else if(year%100==0){
-        return year;
-    } else if (year%4==0){
-        console.log("leap year");
-    }         return year;
-}
+// var arr=[2,10,6,8];
+// temp=arr[1];
 
-console.log(leapYear(2402));
+// console.log(arr);
+
+// function arrayTest(number){
+//     for(var i=number; i>=0; i--){
+        
+//     }
+// }
+
+var arr=[1,3,5,7,9,13];
+if(arr[]>[1]){
+    console.log(arr);
+}

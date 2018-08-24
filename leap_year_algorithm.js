@@ -1,11 +1,14 @@
 function leapYear(year){
-    if(year%400==0){
-        console.log("leap year");
+    if(year%400==0 || year%4==0){
+        return true;
     } else if(year%100==0){
-        return year;
-    } else if (year%4==0){
-        console.log("leap year");
-    }         return year;
+        return false;
+    }
+    return false;
 }
 
-console.log(leapYear(2500));
+if (leapYear(2404)){
+    console.log("True")
+} else{
+    console.log("False");
+}
