@@ -1,6 +1,6 @@
 // setting and swapping
-var myName = "Jake";
-var myNumber = 42;
+// var myName = "Jake";
+// var myNumber = 42;
 // var temp = myName;
 // myName = myNumber; 
 // myNumber = temp;
@@ -85,7 +85,105 @@ var myNumber = 42;
 //     }
 // }
 
-var arr=[1,3,5,7,9,13];
-if(arr[]>[1]){
-    console.log(arr);
+// var arr=[1,2,4,8,9];
+// arr.push([5,9,[5,8,1256,648],576]); 
+// console.log(arr[5][2][1]);
+
+// function countDown(number){
+//     var arr=[];
+//     for(var i=number; i>0; i--){
+//         arr.push(i);
+//         // console.log("i:", i, "arr:", arr);
+//     }
+//     // console.log(arr);
+//     return arr; 
+// }
+// // console.log(countDown(15).length);
+
+// var x=countDown(15); 
+// console.log(x, x.length);
+
+// function printReturn(arr){
+//     console.log(arr[0]);
+//     return arr[1];
+// }
+
+// console.log(printReturn([5,4,85,519,656]));
+
+// function givenArray(pizza){
+//     return (pizza[0]+pizza.length);
+// }
+// console.log(givenArray([4,87,56,566846]));
+
+// function valuesGreater(arr){
+//     var count = 0;
+//     for (var i = 0; i<arr.length; i++){
+//         if(arr[i]>arr[1]){
+//             console.log(arr[i]);
+//             count+=1; 
+//         }
+//     }
+//     return count;
+// }
+// var x = valuesGreater([45,664,8131,68465,1643,5186,468,468,13,84,314,83438,4,38]);
+// console.log("count:",x);
+
+// function lengthValue(num1, num2){
+//     var arr = [];
+//     for (var i = arr; num1; i.push(num2)){
+//         console.log(i);
+//     } 
+    // else (num1=num2){
+    //     return "Jinx!";
+    
+
+// lengthValue(4,5);
+
+// function arrayTest2(arr){
+//     if(arr[0]>arr.length){
+//         console.log("Too big!");
+//     } 
+//     else {
+//         console.log("Too small!");
+//     }
+// }
+// arrayTest2([4,51636,489,5131,5489]);
+
+// function fToC(f){
+//     var i = (f-32)*(5/9);
+//     console.log(i); 
+// }
+
+// fToC(30);
+
+// function arrTest(num1, num2){
+//     if(num1 == num2){
+//         console.log("Jinx!");
+//     }
+//     var arr = []; 
+//     for (var i = 0; i < num1; i++){ 
+//         arr.push(num2); 
+//     }
+//     return(arr);
+// }
+// console.log(arrTest(8,8)); 
+
+// function makeItBig(arr){
+//     for (var i = 0; i>0; i++){
+//         arr[i]="big";
+//     } 
+//     console.log(arr);
+// }
+
+// makeItBig([-5,-64,56,5,-4,5,-7,6]);
+
+function arr4(arr){
+    console.log(arr[arr.length-2]); 
+    for (var i = 0; i>=0; i++){
+        if(arr[i]%2!=0) {
+            return arr[i];
+        } 
 }
+}
+
+console.log(arr4([4,6,86,20,619,6,81,6]));
